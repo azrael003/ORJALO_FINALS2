@@ -41,3 +41,4 @@ class BookingViewController extends Controller
         return redirect()->route('dashboard')->with('success', 'Booking successfully created!');
     }
 }
+
